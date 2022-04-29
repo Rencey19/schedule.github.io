@@ -1,0 +1,100 @@
+.pt-3-half {
+    padding-top: 1.4rem;
+  }
+  .row1 {
+    font-family:sans-serif;
+    font-size: 26px;
+}
+
+th {
+    border: 1px solid rgb(0, 0, 0);
+    border-collapse: collapse;
+    width: 75px;
+    height: 40px;
+    font-size: 16px;
+}
+
+.header1 h1 {
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200px;
+    color: rgb(221, 9, 9);
+}
+
+.header1 p {
+    font-size: 26px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+table {
+    border-style: outset;
+    border-collapse: collapse;
+    border-color: rgb(255, 255, 255);
+    width: 90%;
+    height: 100px;
+    margin: 0px auto;
+    margin-top: 8%;
+}
+
+tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+tr:nth-child(odd) {
+    background-color: #e2f022;
+}
+
+.row2, .row3, .row4, .row5, .row6, .row7, .row8, .row9 {
+    font-family: 'oswald', sans-serif;
+    font-weight: 150px;
+}
+
+.time {
+    font-family: 'Supermercado One', cursive;
+}
+.hide {
+    font-family: sans-serif;
+    box-align: center;
+}
+body 
+{
+    background-color: #1a2588;
+}
+#main nav ul {
+	float: right;
+	margin-right: 20px;
+	margin-top: 10px;	
+}
+
+#main nav ul li {
+	list-style: none;
+	display: inline-block;
+	margin: 0 8px;
+	line-height: 50px;
+}
+
+#main nav ul li a {
+	font-family: Century Gothic;
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 20px;
+	padding: 6px 16px;
+	transition: 0.3s all ease-out;
+	letter-spacing: 5px;
+}
+
+#main nav ul li a.active,
+#main nav ul li a:hover {
+	background: #c4d102;
+	color: rgb(0, 0, 0);
+	transition: 0.4s all ease-out;
+	text-transform: uppercase;
+}
+.text {
+	transform: translate(-50%,-50%);
+	position: absolute;
+	top: 54%;
+	left: 35%;
+}
